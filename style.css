@@ -1,0 +1,273 @@
+
+/* some settings set to global */
+*{
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+/* background */
+body {
+  background-color: #f2cc8f;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* the form of the page */
+.game-form{
+  width: 80%;
+  background-color: #f4a261;
+  padding: 30px;
+  text-align: left;
+}
+
+.game-form p{
+  font-size: 15px;
+}
+
+/* just centering the search */
+.game-search{
+  text-align: center;
+
+/* header */
+}
+.header{
+	background-color: #f2cc8f;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	place-items: center;
+	align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1{
+  font-size: 50px;
+}
+
+/* container */
+
+.game-container{
+  background-size: cover;
+	background-position: center;
+	display: flex;
+  background-color:#f2cc8f;
+	justify-content: center;
+	place-items: center;
+	align-items: center;
+  text-align: center;
+}
+
+/* the image for front page */
+
+.gallery img{
+  height: 50em;
+  border: 5px solid #ffff;
+  
+}
+
+/* buttons and search boxes */
+
+.button-home{
+  text-align: center;
+  background-color: #f2cc8f;
+}
+
+.game-box{
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+input {
+  padding: 0 20px;
+  width: 300px;
+  height: 40px;
+  font-size: 22px;
+}
+
+button {
+  width: 300px;
+  height: 44px;
+  margin: 20px;
+  font-size: 22px;
+  border: none;
+  color: #ffff;
+  background-color: #457b9d;
+}
+
+/* adding button responsivness */
+
+button:hover {
+  background-color: #FFC847;
+  text-decoration: none;
+  border: 3px solid #ffff;
+
+}
+
+/* the contact page details  */
+.contact-details{
+  background-color: #457b9d;
+  padding: 8px;
+  margin: 10px;
+  color: white;
+  width: 50%;
+  height: auto;
+}
+
+/* the map container  */
+
+.map-container{
+  background-color: #457b9d;
+  padding: 8px;
+  margin: 10px;
+  color: white;
+  width: auto;
+  height: auto;
+}
+
+/* the contact image  */
+
+.contact-details img{
+  width: 55%;
+  float: right;
+  padding: 10px;
+
+}
+
+/* sub & heading for contact page  */
+
+.sub-heading{
+  font-size: 1.2em;
+  margin: 30px;
+
+}
+
+.heading{
+  font-size: 2em;
+}
+
+.sub-heading-address{
+  text-align: left;
+  font-size: 1.2em;
+  margin: 30px;
+
+
+}
+
+/* the navigation bar  */
+
+.logo img{
+	width: 60px;
+}
+
+.logo{
+  width: 50px;
+  padding: 10px 15px;
+
+}
+
+/* Add a blue-ish background color to the top navigation */
+.topnav {
+  background-color: #457b9d;
+  overflow: hidden;
+  width: 100%;
+  height: 70px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 30px;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FFC847;
+  color: black;
+  text-decoration: none;
+
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #06D6A0;
+  color: white;
+}
+
+.site-footer
+{
+  background-color:#457b9d ;
+  padding:35px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#e8e8e8;
+}
+.site-footer hr
+{
+  border-top-color:rgb(187, 187, 187);
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+/*Header text is golden*/
+.site-footer h6
+{
+  color:#FFC847;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+/*Text colour is white-ish */
+.site-footer a
+{
+  color:#e8e8e8;
+}
+
+/*Text is gold when hovered */
+
+.site-footer a:hover
+{
+  color:#FFC847;
+  text-decoration:none;
+}
+/*Removes lists */
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+
+/*Text colour is white-ish */
+.footer-links a
+{
+  color:#e8e8e8
+}
+
+/*Text is gold when hovered */
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#FFC847;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.copyright-text
+{
+  margin:0
+}
